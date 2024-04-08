@@ -3,7 +3,6 @@ import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 
 const goalSchema = new Schema(
   {
-    _id: UUID,
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",

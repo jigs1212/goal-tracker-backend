@@ -2,7 +2,6 @@ import mongoose, { Schema } from "mongoose";
 
 const taskSchema = new Schema(
   {
-    _id: UUID,
     taskDefinition: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "TaskDefinition",
